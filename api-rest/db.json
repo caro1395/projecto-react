@@ -1,0 +1,32 @@
+{
+  "apitareas": [
+    {
+      "id": 1,
+      "tarea": "ejecutar proceso psi",
+      "responsable": "carolina",
+      "entrega_a": "santiago",
+      "descripcion": "tarea diaria"
+    },
+    {
+      "id": 2,
+      "tarea": "crear proceso de ventas",
+      "responsable": "carolina",
+      "entrega_a": "fractalia",
+      "descripcion": "tarea diaria"
+    },
+    {
+      "tarea": "Ejecutar base de volcados",
+      "responsable": "carolina",
+      "entrega_a": "konecta",
+      "descripcion": "base de retenciones editar",
+      "id": 4
+    },
+    {
+      "tarea": "Actualizar base de bot maker",
+      "responsable": "carolina",
+      "entrega_a": "operacion",
+      "descripcion": "base que actualiza indicadores de whatsapp",
+      "id": 5
+    }
+  ]
+}

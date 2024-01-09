@@ -1,0 +1,46 @@
+@api=http://localhost:4000/cartera
+@api2=http://localhost:4000/tareas
+
+###
+GET {{api}}
+
+###Aqui obtenemos todas las tareas
+GET {{api2}}
+
+###
+POST {{api2}}
+Content-Type: application/json
+
+{
+    "tarea": "Actualizar base de RRAA",
+    "desccripcion":"base de rraa actualizar diariamente",
+    "responsable":"carolina",
+    "Entrega_a":"operacion"
+}
+
+###buscando a cliente en especifico
+GET {{api}}/10000190468
+
+###delete tareas
+DELETE {{api2}}/22
+
+###mostrar total de clientes
+GET {{api}}/count
+
+###mostrar total de clientes
+GET {{api2}}/count
+
+
+###update de tareas
+PUT {{api2}}/9
+Content-Type: application/json
+
+{
+    "tarea":"Enviar base de corte por deuda",
+    "desccripcion":"enviar reporte de base cxd por correo",
+    "responsable":"carolina",
+    "entrega_a":"operacion"
+}
+
+###
+GET {{api2}}/carolina/santiago
