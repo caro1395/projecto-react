@@ -128,7 +128,7 @@ const manejadorActualizar=()=>{
                                 </div>
 
                                 <div className="form-group">
-                                    <label>Tarea</label>
+                                    <label>Tarea1</label>
                                     <input type="text" id="nombreidEditar" className="form-control"/>
                                 </div>
 
